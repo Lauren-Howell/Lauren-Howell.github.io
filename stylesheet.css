@@ -28,8 +28,32 @@ body{
 #content1{
     height: 250px;
     min-width: 100%;
-    display: inline-block;
+    display: grid;
+    border-radius: 25px;
+}
+
+#split1{
     background-color: aliceblue;
+    border-radius: 25px;
+    min-width: 1px;
+    min-height: 1px;
+    height: 250px;
+    justify-self: left;
+    width: 97%;
+    grid-row: 1;
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px #97a89a;
+}
+
+#split2{
+    background-color: aliceblue;
+    border-radius: 25px;
+    min-width: 1px;
+    min-height: 1px;
+    height: 250px;
+    justify-self: right;
+    width: 97%;
+    grid-row: 1;
     border-radius: 25px;
     box-shadow: 15px 15px 15px #97a89a;
 }
@@ -41,7 +65,7 @@ body{
     display: inline-block;
     background-color: aliceblue;
     border-radius: 25px;
-    box-shadow: 5px 10px #97a89a;
+    box-shadow: 15px 15px 15px #97a89a;
     padding-top: 20px;
 }
 
