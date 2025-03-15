@@ -22,19 +22,32 @@ body{
     font-weight: 900;
 }
 #main{
-    background-color: aliceblue;
-    border-radius: 25px;
+    min-height: 100vh;
 }
 
 #content1{
-    border: #a9baac;
-    height: 25vh;
+    height: 250px;
+    min-width: 100%;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px #97a89a;
 }
 
 #content2{
-    border: #a9baac;
-    height: 25vh;
+    border-width: medium;
+    height: 250px;
+    min-width: 100%;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 5px 10px #97a89a;
+    padding-top: 20px;
 }
+
+div:not(:last-child) {
+    margin-bottom: 20px;
+  }
 
 h1 {
     font-size: 2.5em;
