@@ -23,8 +23,17 @@ body{
 }
 #main{
     background-color: aliceblue;
-    height: 50vh;
     border-radius: 25px;
+}
+
+#content1{
+    border: #a9baac;
+    height: 25vh;
+}
+
+#content2{
+    border: #a9baac;
+    height: 25vh;
 }
 
 h1 {
