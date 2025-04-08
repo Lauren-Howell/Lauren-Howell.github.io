@@ -44,12 +44,13 @@ body {
   }
   .contact {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 2em;
     color: #666;
   }
   .contact a {
     color: #2c3e50;
     text-decoration: none;
+    
   }
   .contact a:hover {
     text-decoration: underline;
